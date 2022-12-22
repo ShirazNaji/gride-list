@@ -1,0 +1,379 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Tahoma , Arial;
+  
+}
+
+
+
+.block{
+    
+    min-height: 1200px;
+    background-color: #EEE;
+    margin-bottom: 20px;
+    padding: 60px 0;
+    text-align: center;
+    
+    
+    
+}
+
+
+h2{
+    font-family: cursive;
+}
+
+
+
+
+
+/*---------------------------------------------------------------gride products ---------------------------------- */
+
+.products.grid-view{
+    
+    width: 1000px;
+    margin:10px  auto;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 20px;
+   
+}
+
+
+
+
+.products.grid-view .product{
+    float: left;
+    width: 49%;
+     
+    background-color: #fff;
+    border: 1px solid #ccc;
+   
+    
+}
+
+.products.grid-view .product img{ width: 100px;}
+
+.products.grid-view .product .data {
+    
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.products.grid-view .product:first-child{ margin-right: 1%;}
+
+.products.grid-view .product i{
+    
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.products.grid-view .product .des{
+    
+    padding: 10px; 
+    display: none;
+}
+
+.products.grid-view button{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.products.grid-view .active{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*---------------------------------------------------------------list products ---------------------------------- */
+
+.products.list-view {
+    
+    width: 900px;
+    margin:0  auto;
+    overflow: hidden;
+    border: 1px solid black;
+   
+}
+
+
+
+
+.products.list-view .product{
+    
+   
+     position: relative;
+    height: 130px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;    
+    padding: 10px;
+    
+}
+
+.products.list-view .product img{ 
+    width: 130px; 
+    height: 130px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+
+}
+
+.products.list-view .product h3{
+    
+    margin-top: 15px;
+    margin-left: -470px;
+}
+
+.products.list-view .product .data {
+    
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin-left: -490px;
+}
+
+.products.list-view .product:first-child{ margin-right: 1%;}
+
+.products.list-view .product i{
+    
+    display: none;
+    
+}
+
+.products.list-view .product .des{
+    
+    padding: 10px; 
+    display: block;
+    margin-left: -400px;
+}
+
+.products.list-view button{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.products.list-view .active{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*-----------------------------------------------------------list items ---------------------------------- */
+
+.items.list-view {
+    
+    width: 900px;
+    margin:0  auto;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 20px;
+   
+}
+
+
+
+
+.items.list-view .item{
+    
+   
+     position: relative;
+    height: 130px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;    
+    padding: 10px;
+    
+}
+
+.items.list-view .item img{ 
+    width: 117px;
+    height: 116px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.items.list-view .item h3{
+    
+    margin-top: 15px;
+    margin-left: -470px;
+}
+
+.items.list-view .item .data {
+    
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin-left: -490px;
+}
+
+.items.list-view .item:first-child{ margin-right: 1%;}
+
+.items.list-view .item i{
+    
+    display: none;
+    
+}
+
+.items.list-view .item .des{
+    
+    padding: 10px; 
+    display: block;
+    margin-left: -400px;
+}
+
+
+
+.items.list-view button{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.items.list-view .active{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*-----------------------------------------------------------grid item ---------------------------------- */
+
+
+
+
+.items.grid-view{
+    
+    width: 1000px;
+    margin:10px  auto;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 3px 3px;
+   
+}
+
+
+
+
+.items.grid-view .item{
+    float: left;
+    width: 49%;
+     
+    background-color: #fff;
+    border: 1px solid #ccc;
+   
+    
+}
+
+.items.grid-view .item img{ width: 100px;}
+
+.items.grid-view .item .data {
+    
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.items.grid-view .item:first-child{ margin-right: 1%;}
+
+.items.grid-view .item i{
+    
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.items.grid-view .item .des{
+    
+    padding: 10px; 
+    display: none;
+}
+
+.items.grid-view button{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.items.grid-view .active{
+    
+    width: 100px ;
+    height: 50px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
